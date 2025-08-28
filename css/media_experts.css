@@ -1,0 +1,461 @@
+.find-an-expert header {
+    padding-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #18171e;
+    margin-bottom: 2rem;
+  }
+  
+  .find-an-expert header span {
+    color: #98012e;
+    font-size: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .find-an-expert .views-exposed-form {
+    display: flex;
+  }
+  
+  .find-an-expert .views-exposed-form .js-form-item {
+    width: calc(50% - 2rem);
+    margin: 0 1rem 2rem;
+  }
+  
+  .find-an-expert .views-exposed-form .js-form-item label {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: "BreveSans", sans-serif;
+    margin-bottom: 0.3rem;
+  }
+  
+  .find-an-expert .views-exposed-form input[type=text] {
+    height: 3.3rem;
+  }
+  
+  .find-an-expert .blazy--view--find-an-expert .views-row .views-col,
+  .find-an-expert .views-view-grid .views-row .views-col {
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.2) 2px 6px 6px -2px,
+      rgba(0, 0, 0, 0.2) 2px 3px 4px -3px;
+    padding: 15px;
+    width: 100% !important;
+    margin: 12px 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .find-an-expert .blazy--view--find-an-expert .views-row .views-col,
+    .find-an-expert .views-view-grid .views-row .views-col {
+      width: 48% !important;
+      height: 435px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .find-an-expert .blazy--view--find-an-expert .views-row .views-col,
+    .find-an-expert .views-view-grid .views-row .views-col {
+      width: 32% !important;
+      height: 435px;
+    }
+  }
+  
+  .find-an-expert .blazy--view--find-an-expert .views-row .views-col:hover,
+  .find-an-expert .views-view-grid .views-row .views-col:hover {
+    box-shadow: rgba(50, 50, 93, 0.4) 2px 6px 6px -2px,
+      rgba(0, 0, 0, 0.4) 2px 3px 4px -3px;
+    transition: 0.2s linear;
+  }
+  
+  .find-an-expert .views-field-title {
+    text-align: center;
+    float: left;
+    width: 100%;
+    min-height: 65px;
+  }
+  
+  .find-an-expert .views-field-title h5,
+  .find-an-expert .views-field-title .h5 {
+    margin-bottom: 0;
+  }
+  
+  .find-an-expert .views-field-title a {
+    color: #05637b;
+    text-decoration: none;
+    font-size: 2.8rem;
+    line-height: 0.4;
+  }
+  
+  .find-an-expert .views-field-title a:hover,
+  .find-an-expert .views-field-title a:focus {
+    color: #033b4a;
+  }
+  
+  .find-an-expert .views-field-field-profile-photo {
+    padding: 0;
+    text-align: center;
+    width: 225px;
+  }
+  
+  @media (min-width: 768px) {
+    .find-an-expert .views-field-field-profile-photo {
+      width: 40%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .find-an-expert .views-field-field-profile-photo {
+      width: 40%;
+      margin-top: -4px;
+      margin-right: -10px;
+      float: right;
+      padding: 5px 5px 6rem;
+    }
+  }
+  
+  .find-an-expert .views-field-field-profile-photo img {
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 28%;
+    border: 4px solid #a89968;
+    transition: 0.45s linear;
+  }
+  
+  .find-an-expert .views-field-body {
+    font-size: 1.55rem;
+    line-height: 1.35;
+    margin-top: 5px;
+    padding-top: 5px;
+    width: 63%;
+  }
+  
+  .find-an-expert .views-field-body p {
+    font-size: 1.45rem;
+    line-height: 1.35;
+  }
+  
+  .find-an-expert .views-field-field-specialization {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  
+  @media (min-width: 992px) {
+    .find-an-expert .views-field-field-specialization {
+      width: 62%;
+      float: left;
+    }
+  }
+  
+  .find-an-expert .views-field-field-specialization .views-label {
+    border-bottom: 3px solid grey;
+    font-size: 1.95rem;
+    font-weight: bold;
+  }
+  
+  .find-an-expert .views-field-field-specialization .field-content {
+    font-size: 1.75rem;
+    line-height: 1.55;
+  }
+  
+  .find-an-expert .views-field-view-node,
+  .find-an-expert .views-field-field-email {
+    position: absolute;
+    right: 21px;
+    top: 254px;
+    border-radius: 28%;
+    border: 4px solid #a89968;
+    transition: 0.45s linear;
+  }
+  
+  .find-an-expert .views-field-view-node a,
+  .find-an-expert .views-field-field-email a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .find-an-expert .views-field-view-node .field-content,
+  .find-an-expert .views-field-field-email .field-content {
+    border-radius: 23%;
+    padding: 1rem 1rem;
+  }
+  
+  .find-an-expert .views-field-field-email {
+    top: 310px;
+    display: none;
+  }
+  
+  .find-an-expert .views-col:hover .views-field-field-profile-photo img {
+    border: 4px solid #ba0c2f;
+  }
+  
+  .find-an-expert .views-col:hover .views-field-view-node {
+    border: 4px solid #ba0c2f;
+  }
+  
+  /* ---------------- Expert Page ---------------- */
+  
+  .find-an-expert-page {
+    width: 70%;
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    display: flex;
+  }
+  
+  .find-an-expert-page #inner-information {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+  }
+  
+  @media (min-width: 992px) {
+    .find-an-expert-page #inner-information {
+      width: 33%;
+    }
+  }
+  
+  .find-an-expert-page #inner-information .expert-field-wrapper .field_social_links-field {
+    margin-right: 2rem;
+  }
+  
+  .find-an-expert-page #inner-information .expert-field-wrapper .field_social_links-field .follow-us {
+    background: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .find-an-expert-page #inner-information .expert-field-wrapper .field_social_links-field .follow-us .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .find-an-expert-page #inner-information .expert-field-wrapper .field_social_links-field .follow-us .follow-us__view-all {
+    display: none;
+  }
+  
+  .find-an-expert-page #inner-information .expert-field-wrapper .field_social_links-field .follow-us .columns ul li::before {
+    height: 0;
+  }
+  
+  .find-an-expert-page #inner-information .expert-field-wrapper .field_social_links-field .follow-us .columns ul li a span {
+    color: #8c2332;
+  }
+  
+  .find-an-expert-page #inner-information .expert-field-wrapper .field_social_links-field .follow-us .columns ul li a:hover {
+    color: white;
+  }
+  
+  .find-an-expert-page #outer-information {
+    width: 66%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .find-an-expert-page .expert-field-wrapper {
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .find-an-expert-page .expert-label {
+    font-size: 1.95rem;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    color: #8b6e4a;
+    text-decoration: underline;
+  }
+  
+  .find-an-expert-page .field_profile_photo-field {
+    width: 95%;
+    max-width: 222px;
+    margin-right: 37px;
+    margin-top: -4px;
+    float: left;
+    padding: 5px 5px 6rem;
+  }
+  
+  .find-an-expert-page .field_profile_photo-field img {
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 28%;
+    border: 6px solid #a89968;
+    transition: 0.45s linear;
+  }
+  
+  .find-an-expert-page .field_email-field {
+    padding: 1.5rem 2rem;
+    font-family: "Acto", sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    background-color: #8b6e4a;
+    font-size: 1.95rem;
+    border-radius: 28%;
+    border: 6px solid #a89968;
+    transition: 0.45s linear;
+    width: 205px;
+    margin: -60px 0 15px 7px;
+  }
+  
+  .find-an-expert-page .field_email-field:hover {
+    border: 6px solid #ba0c2f;
+  }
+  
+  .find-an-expert-page .field_email-field a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .find-an-expert-page .back-to-expert-page {
+    position: absolute;
+    right: 19%;
+    bottom: -10px;
+  }
+  
+  .find-an-expert-page .back-to-expert-page button {
+    background-color: #18171e;
+    text-transform: uppercase;
+    font-family: "BreveSans", sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: white;
+    padding: 1.7rem;
+    cursor: pointer;
+  }
+  
+  .find-an-expert-page .back-to-expert-page button:hover {
+    color: #a89968;
+    background-color: white;
+    border: 1px solid #ba0c2f;
+  }
+  
+  /* ---------------- Expert List Items ---------------- */
+  
+  .expert-list-item {
+    padding: 5.5rem 0 2rem 0;
+    height: 100%;
+    position: relative;
+    border-bottom: 0.2rem solid #d1d1d2;
+  }
+  
+  .expert-list-item .expert-name-main,
+  .expert-list-item .expert-name-column {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #18171e;
+    margin-bottom: 1.6rem;
+    margin-top: -0.8rem;
+  }
+  
+  .expert-list-item .expert-name-main {
+    position: absolute;
+    left: -999.9rem;
+    top: -999.9rem;
+  }
+  
+  .expert-list-item .details {
+    display: flex;
+    background: #f9f9f9;
+    padding: 2.4rem 2rem 3rem 2rem;
+  }
+  
+  .expert-list-item .thumb-wrapper {
+    width: 16.8rem;
+    max-width: 40%;
+    margin-top: -5rem;
+    flex-grow: 0;
+  }
+  
+  .expert-list-item .profile-button {
+    margin-top: 1.5rem;
+  }
+  
+  .expert-list-item .expertise {
+    padding-left: 2.4rem;
+    flex-grow: 1;
+  }
+  
+  .expert-list-item .expert-topics h4,
+  .expert-list-item .expert-topics .h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+  }
+  
+  .expert-list-item .expert-topics a {
+    display: inline-block;
+    margin-bottom: 0.4rem;
+  }
+  
+  .expert-list-item .expert-topics + .expert-icons {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 0.1rem solid #d1d1d2;
+  }
+  
+  .expert-list-item .expert-icons {
+    color: #525252;
+    overflow: hidden;
+  }
+  
+  .expert-list-item .expert-icon {
+    margin-bottom: 0.6rem;
+    font-size: 1.6rem;
+  }
+  
+  .expert-list-item .expert-icon-glyph {
+    font-size: 1.8rem;
+  }
+  
+  .expert-list-item .description {
+    padding-right: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .expert-list-item {
+      padding-top: 2rem;
+    }
+    .expert-list-item .expert-name-main {
+      position: static;
+    }
+    .expert-list-item .expert-name-column {
+      display: none;
+    }
+    .expert-list-item .details {
+      float: left;
+      margin-right: 1.6rem;
+      margin-bottom: 0.8rem;
+      padding-bottom: 2rem;
+    }
+    .expert-list-item .thumb-wrapper {
+      margin-top: 0;
+    }
+    .expert-list-item .description {
+      padding-right: 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .expert-list-item .details {
+      width: 100%;
+      padding: 2rem 1.2rem;
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
+    .expert-list-item .profile-button {
+      padding: 2rem 1.2rem;
+      background: #f9f9f9;
+    }
+  }
+  
+  /* ---------------- Profile Expert ---------------- */
+  
+  #main-content.profile-page .profile-expert {
+    font-size: 1.6rem;
+    margin-top: -1rem;
+  }
+  
