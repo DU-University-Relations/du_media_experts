@@ -1,0 +1,31 @@
+uuid: 364f8ec7-0cec-4ffe-92d8-9fcb206587ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media_expert_campaigns
+    - node.type.media_expert
+    - taxonomy.vocabulary.campaigns
+_core:
+  default_config_hash: QhRZRC5kj16qE0eCmb2gieP6Xr8eJ38E88e5SsTP29I
+id: node.media_expert.field_media_expert_campaigns
+field_name: field_media_expert_campaigns
+entity_type: node
+bundle: media_expert
+label: 'Expert Campaigns'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      campaigns: campaigns
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: campaigns
+field_type: entity_reference

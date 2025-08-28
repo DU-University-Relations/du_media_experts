@@ -1,0 +1,25 @@
+uuid: ceeff75c-6fb5-41b1-b3ba-8eacc1fc83f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media_expert_radio
+    - node.type.media_expert
+_core:
+  default_config_hash: 4HMAZ425RmpLbE-jDK2sQC47-AlYcgxO3keWPITA9bw
+id: node.media_expert.field_media_expert_radio
+field_name: field_media_expert_radio
+entity_type: node
+bundle: media_expert
+label: Radio
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

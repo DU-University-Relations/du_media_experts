@@ -1,0 +1,19 @@
+uuid: 18df0c1b-bb0d-44d8-9b90-bad41823279f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.expert
+id: node.expert.field_email
+field_name: field_email
+entity_type: node
+bundle: expert
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

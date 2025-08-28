@@ -1,0 +1,364 @@
+uuid: 75aaa05d-89db-4ddd-a16e-774e68477ffa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_social_links
+    - node.type.expert
+    - paragraphs.paragraphs_type.social_media_bar
+  module:
+    - entity_reference_revisions
+id: node.expert.field_social_links
+field_name: field_social_links
+entity_type: node
+bundle: expert
+label: 'Social Links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      social_media_bar: social_media_bar
+    negate: 0
+    target_bundles_drag_drop:
+      academic_programs:
+        weight: 113
+        enabled: false
+      academic_programs_filter:
+        weight: 114
+        enabled: false
+      academic_programs_legend_def:
+        weight: 115
+        enabled: false
+      admission_steps:
+        weight: 116
+        enabled: false
+      admission_steps_in_content:
+        weight: 117
+        enabled: false
+      application_card:
+        weight: 118
+        enabled: false
+      application_information:
+        weight: 119
+        enabled: false
+      article_list:
+        weight: 120
+        enabled: false
+      big_button:
+        weight: 121
+        enabled: false
+      block:
+        weight: 122
+        enabled: false
+      body_copy:
+        weight: 123
+        enabled: false
+      body_text:
+        weight: 124
+        enabled: false
+      button:
+        weight: 125
+        enabled: false
+      button_with_image:
+        weight: 126
+        enabled: false
+      card:
+        weight: 127
+        enabled: false
+      cards:
+        weight: 128
+        enabled: false
+      carousel:
+        weight: 129
+        enabled: false
+      category_link:
+        weight: 130
+        enabled: false
+      category_menu:
+        weight: 131
+        enabled: false
+      contact_single:
+        weight: 133
+        enabled: false
+      contacts:
+        weight: 132
+        enabled: false
+      content_gallery:
+        weight: 134
+        enabled: false
+      counselor_and_staff_directory:
+        weight: 135
+        enabled: false
+      counselor_profile_search:
+        weight: 136
+        enabled: false
+      cta:
+        weight: 137
+        enabled: false
+      cta_group:
+        weight: 138
+        enabled: false
+      cta_inline:
+        weight: 139
+        enabled: false
+      du_in_the_news_list:
+        weight: 140
+        enabled: false
+      elevate_courses:
+        weight: 141
+        enabled: false
+      elevate_courses_filter:
+        weight: 142
+        enabled: false
+      elevate_instance:
+        weight: 143
+        enabled: false
+      elevate_tutorial:
+        weight: 144
+        enabled: false
+      embed_code:
+        weight: 145
+        enabled: false
+      enhanced_expanding_list:
+        weight: 146
+        enabled: false
+      enhanced_list_item:
+        weight: 147
+        enabled: false
+      event_list:
+        weight: 148
+        enabled: false
+      event_time_place:
+        weight: 149
+        enabled: false
+      expanding_list:
+        weight: 150
+        enabled: false
+      experiential_story:
+        weight: 151
+        enabled: false
+      experiential_story_slide:
+        weight: 152
+        enabled: false
+      feature_media:
+        weight: 160
+        enabled: false
+      feature_media_image:
+        weight: 161
+        enabled: false
+      feature_media_video:
+        weight: 162
+        enabled: false
+      featured_article:
+        weight: 153
+        enabled: false
+      featured_articles:
+        weight: 154
+        enabled: false
+      featured_courses:
+        weight: 155
+        enabled: false
+      featured_curricula:
+        weight: 156
+        enabled: false
+      featured_event:
+        weight: 157
+        enabled: false
+      featured_event_slide:
+        weight: 158
+        enabled: false
+      featured_video_component:
+        weight: 159
+        enabled: false
+      find_an_expert:
+        weight: 163
+        enabled: false
+      gallery_date:
+        weight: 164
+        enabled: false
+      heading:
+        weight: 165
+        enabled: false
+      hero_media:
+        weight: 166
+        enabled: false
+      homepage_facts:
+        weight: 167
+        enabled: false
+      homepage_programs_search:
+        weight: 168
+        enabled: false
+      homepage_quote:
+        weight: 169
+        enabled: false
+      homepage_quotes:
+        weight: 170
+        enabled: false
+      homepage_section_copy:
+        weight: 171
+        enabled: false
+      homepage_swapping_image_feature:
+        weight: 172
+        enabled: false
+      homepage_video_carousel:
+        weight: 173
+        enabled: false
+      hvc_slide:
+        weight: 174
+        enabled: false
+      icon_link:
+        weight: 175
+        enabled: false
+      icon_list:
+        weight: 176
+        enabled: false
+      icon_list_item:
+        weight: 177
+        enabled: false
+      image_with_caption:
+        weight: 178
+        enabled: false
+      immersive_story:
+        weight: 179
+        enabled: false
+      inset_video:
+        weight: 180
+        enabled: false
+      key_faculty_and_students:
+        weight: 181
+        enabled: false
+      list_of_links:
+        weight: 182
+        enabled: false
+      mini_calendar:
+        weight: 183
+        enabled: false
+      named_anchor:
+        weight: 184
+        enabled: false
+      news_carousel:
+        weight: 185
+        enabled: false
+      news_carousel_item:
+        weight: 186
+        enabled: false
+      news_find_stories_by_category:
+        weight: 187
+        enabled: false
+      news_find_stories_search:
+        weight: 188
+        enabled: false
+      news_stories:
+        weight: 189
+        enabled: false
+      policy:
+        weight: 190
+        enabled: false
+      profile_list:
+        weight: 191
+        enabled: false
+      profile_performances:
+        weight: 192
+        enabled: false
+      pull_quote:
+        weight: 193
+        enabled: false
+      quick_facts:
+        weight: 194
+        enabled: false
+      quick_facts_feature_fact:
+        weight: 195
+        enabled: false
+      quick_facts_list_item_simple:
+        weight: 196
+        enabled: false
+      quick_facts_list_of_facts:
+        weight: 197
+        enabled: false
+      quick_stat:
+        weight: 198
+        enabled: false
+      quick_stats:
+        weight: 199
+        enabled: false
+      related_stories:
+        weight: 200
+        enabled: false
+      related_stories_2:
+        weight: 201
+        enabled: false
+      research_project_list:
+        weight: 202
+        enabled: false
+      resource_list:
+        weight: 203
+        enabled: false
+      reusable_content:
+        weight: 204
+        enabled: false
+      risk_records:
+        weight: 205
+        enabled: false
+      show_hide_toggle:
+        weight: 206
+        enabled: false
+      slide:
+        weight: 207
+        enabled: false
+      slide_media:
+        weight: 208
+        enabled: false
+      social_media_bar:
+        weight: 209
+        enabled: true
+      stories:
+        weight: 210
+        enabled: false
+      story_slide_media:
+        weight: 211
+        enabled: false
+      subhead:
+        weight: 212
+        enabled: false
+      tab_menu:
+        weight: 213
+        enabled: false
+      testimonial_spotlight_curated:
+        weight: 215
+        enabled: false
+      testimonials_spotlight:
+        weight: 214
+        enabled: false
+      top_news_story:
+        weight: 216
+        enabled: false
+      training_orsp:
+        weight: 217
+        enabled: false
+      tuition_calculator:
+        weight: 218
+        enabled: false
+      two_col_copy:
+        weight: 219
+        enabled: false
+      two_col_news:
+        weight: 220
+        enabled: false
+      two_value_text:
+        weight: 221
+        enabled: false
+      unit_carousel:
+        weight: 222
+        enabled: false
+      unit_slide:
+        weight: 223
+        enabled: false
+      webform:
+        weight: 224
+        enabled: false
+field_type: entity_reference_revisions

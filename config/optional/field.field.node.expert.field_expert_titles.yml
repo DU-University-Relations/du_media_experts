@@ -1,0 +1,19 @@
+uuid: 0f4836f7-8997-4152-bbd4-3cfad9f13f07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_expert_titles
+    - node.type.expert
+id: node.expert.field_expert_titles
+field_name: field_expert_titles
+entity_type: node
+bundle: expert
+label: Title(s)
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

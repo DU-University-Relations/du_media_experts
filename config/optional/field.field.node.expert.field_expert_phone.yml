@@ -1,0 +1,19 @@
+uuid: 09b22075-2663-4e7a-b3cb-d89f835e35a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_expert_phone
+    - node.type.expert
+id: node.expert.field_expert_phone
+field_name: field_expert_phone
+entity_type: node
+bundle: expert
+label: Phone
+description: 'Enter the contact number for the expert; please note these numbers are public.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

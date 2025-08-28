@@ -1,0 +1,25 @@
+uuid: c0d7cfa9-c146-4962-94b2-67b41b57f984
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media_expert_print
+    - node.type.media_expert
+_core:
+  default_config_hash: eSYobnDfh-WEEbBaZ_YeaS2qqAxsmYR39ABGk74HyTo
+id: node.media_expert.field_media_expert_print
+field_name: field_media_expert_print
+entity_type: node
+bundle: media_expert
+label: Print
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,153 @@
+uuid: a4fa5b3f-0d43-4937-a7c2-ad03c36045f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.expert.body
+    - field.field.node.expert.field_email
+    - field.field.node.expert.field_expert_first_name
+    - field.field.node.expert.field_expert_last_name
+    - field.field.node.expert.field_expert_phone
+    - field.field.node.expert.field_expert_titles
+    - field.field.node.expert.field_media_appearances
+    - field.field.node.expert.field_profile_photo
+    - field.field.node.expert.field_social_links
+    - field.field.node.expert.field_specialization
+    - node.type.expert
+  module:
+    - entity_reference_revisions
+    - field_group
+    - svg_image
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_outer_information:
+      children:
+        - field_specialization
+        - body
+        - field_media_appearances
+      label: 'Outer Information'
+      parent_name: ''
+      region: content
+      weight: 6
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: outer-information
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+        direction: vertical
+        width_breakpoint: 640
+    group_inner_information:
+      children:
+        - field_profile_photo
+        - field_email
+        - field_expert_phone
+        - field_expert_titles
+        - field_social_links
+      label: 'Inner Information'
+      parent_name: ''
+      region: content
+      weight: 1
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: inner-information
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+id: node.expert.default
+targetEntityType: node
+bundle: expert
+mode: default
+content:
+  body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_email:
+    type: email_mailto
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_expert_phone:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_expert_titles:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_media_appearances:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_profile_photo:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_social_links:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_specialization:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_expert_first_name: true
+  field_expert_last_name: true
+  search_api_excerpt: true

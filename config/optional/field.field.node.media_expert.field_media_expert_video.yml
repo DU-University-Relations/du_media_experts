@@ -1,0 +1,25 @@
+uuid: 322bedef-b69e-4eae-8dc1-c12c1a433cd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media_expert_video
+    - node.type.media_expert
+_core:
+  default_config_hash: HqGcEbo2knyKmrpYpWa1E2yODYOQ5O8--pNKTMBh2Do
+id: node.media_expert.field_media_expert_video
+field_name: field_media_expert_video
+entity_type: node
+bundle: media_expert
+label: Video
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

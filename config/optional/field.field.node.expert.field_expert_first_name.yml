@@ -1,0 +1,19 @@
+uuid: a50d7a09-0bc1-4655-a234-dbe0212504e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_expert_first_name
+    - node.type.expert
+id: node.expert.field_expert_first_name
+field_name: field_expert_first_name
+entity_type: node
+bundle: expert
+label: 'First Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
