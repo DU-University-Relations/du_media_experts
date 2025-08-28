@@ -1,8 +1,0 @@
-name: 'DU Media Experts'
-type: module
-description: 'DU Module for 'Media Experts' config and styling.
-version: 10.20.0
-core_version_requirement: ^10
-package: 'DU'
-dependencies:
- 

@@ -1,0 +1,31 @@
+uuid: 00f2eb38-a45c-4d7f-ad82-feebee40e24c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media_expert_topics
+    - node.type.media_expert
+    - taxonomy.vocabulary.topics_of_expertise
+_core:
+  default_config_hash: szuctY8tyyRMQztj87yLEQdGBDlksNLLsgGr4MLVBh8
+id: node.media_expert.field_media_expert_topics
+field_name: field_media_expert_topics
+entity_type: node
+bundle: media_expert
+label: 'Expert Topics'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topics_of_expertise: topics_of_expertise
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: event_types
+field_type: entity_reference

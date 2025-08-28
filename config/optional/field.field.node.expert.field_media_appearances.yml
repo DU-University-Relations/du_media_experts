@@ -1,0 +1,26 @@
+uuid: 574e4b20-54d0-4f06-b9e8-11aa0f5b68fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media_appearances
+    - node.type.expert
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - rich_text
+id: node.expert.field_media_appearances
+field_name: field_media_appearances
+entity_type: node
+bundle: expert
+label: 'Media Appearances'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
