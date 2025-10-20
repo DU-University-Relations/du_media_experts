@@ -1,5 +1,5 @@
 media_experts:
-  version: 10.20.0
+  version: 10.24.0
   css:
     theme:
       css/media_experts.css: {}
